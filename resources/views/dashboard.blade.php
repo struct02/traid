@@ -73,7 +73,7 @@
             <div class="content">
                 <span class="body-4 text-dark-4">Welcome back!</span>
                 <h4 class="name">
-                    Hello! Smith
+                    Hello, <span style="font-weight: 400">{{Auth::user()->name}}</span>
                     <img class="icon" src="images/icon/hello.png" alt="">
                 </h4>
             </div>
@@ -570,7 +570,7 @@
                 </a>
             </li>
             <li>
-                <a href="profile.html">
+                <a href="profile">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g opacity="0.6">
                             <path
@@ -807,7 +807,7 @@
                         </div>
                         <div class="content-right">
                             <p class="text-1">Good morning</p>
-                            <h6 class="fw-7">Hello! Smith</h6>
+                            <h6 class="fw-7">Hello, {{Auth::user()->name}}</h6>
                         </div>
                     </div>
                     <ul class="pt-20 pb-20">
@@ -858,7 +858,7 @@
                         </li>
 
                         <li class="mt-16">
-                            <a href="profile.html" class="nav-link-item no-page">
+                            <a href="profile" class="nav-link-item no-page">
                                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                     viewBox="0 0 20 20" fill="none">
                                     <path
@@ -989,7 +989,7 @@
                             <li><a href="group-message.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
                                     <span>Group Message</span>
                                 </a></li>
-                            <li><a href="profile.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                            <li><a href="profile" class="nav-link-item pt-16 pb-16 line-bt no-page">
                                     <span>Profile</span>
                                 </a></li>
                             <li><a href="skill-view.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
