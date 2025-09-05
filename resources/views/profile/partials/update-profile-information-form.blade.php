@@ -56,7 +56,7 @@
         </div>
 <br>
         <div class="">
-            <x-primary-button>{{ __('Save') }}</x-primary-button>
+            <x-primary-button>{{ __('Update User Details') }}</x-primary-button>
 
             @if (session('status') === 'profile-updated')
              <div class="mt-3 alert alert-secondary light alert-dismissible fade show mb-10" role="alert">
