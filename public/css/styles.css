@@ -4465,10 +4465,11 @@ html:not([dir=rtl]) .slider-salary .noUi-handle-upper {
 
 /*--------- Abstracts variable ---------- */
 .card {
+
   padding: 16px;
   border-radius: 16px;
   box-shadow: var(--shadow-7);
-  border-color: transparent;
+  border: 1px solid #b3a6ff !important;
   background-color: var(--white);
   color: var(--rgba-black-2);
 }

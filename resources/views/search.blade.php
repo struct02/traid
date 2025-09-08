@@ -138,23 +138,30 @@
                 </span>
                 </form>
             </div>
-            <div class="mt-24 banner-box">
+            <div class="mt-24">
                 <div class="content">
+                     <div class="container">
+                         
 
-                  
-                    <h5 class="title"> Close the best deals<br> by trading services</h5>
-                    <a href="job-detail.html" class="btn-more">Learn More</a>
+
+                 @if($posts->count() > 0)
+                  <div class="row">
+    @foreach($posts as $post)
+    <div class="col-6 col-md-3">
+        <div class="card mb-24">
+        <h5>{{ $post->busname }}</h5>
+        <p>{{ $post->bustype }}</p>
+        </div>
+    </div>
+    @endforeach
+                  </div>
+@else
+    <div class="card">No results found</div>
+@endif 
                 </div>
-                <div class="img-box">
-                    <img src="images/banner/banner-1.png" alt="">
                 </div>
-                <div class="circle-animation">
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                </div>
+               
+             
             </div>
             <div class="mt-24">
                 <h4>Browse By Category</h4>
@@ -908,7 +915,7 @@
 
 
                         </li>
-                        {{-- <li class="mt-16">
+                        <li class="mt-16">
                             <a href="javascript:void(0);" class="nav-link-item btn-choose-page">
                                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                     viewBox="0 0 20 20" fill="none">
@@ -924,8 +931,8 @@
                                 </svg>
                                 <span>Pages</span>
                             </a>
-                        </li> --}}
-                        {{-- <li class="mt-16">
+                        </li>
+                        <li class="mt-16">
                             <a href="javascript:void(0);" class="nav-link-item btn-choose-component">
                                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                     viewBox="0 0 20 20" fill="none">
@@ -938,7 +945,7 @@
                                 </svg>
                                 <span>Components</span>
                             </a>
-                        </li> --}}
+                        </li>
 
                         <li class="mt-16">
                             <a href="profile" class="nav-link-item no-page">
@@ -952,34 +959,6 @@
                                         fill="#D3D5DA" />
                                 </svg>
                                 <span>Profile</span>
-                            </a>
-                        </li>
-                          <li class="mt-16">
-                            <a href="advertise" class="nav-link-item no-page">
-                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                    viewBox="0 0 20 20" fill="none">
-                                    <path
-                                        d="M9.99815 12.6455C6.40398 12.6455 3.33398 13.2122 3.33398 15.4788C3.33398 17.7463 6.38482 18.333 9.99815 18.333C13.5923 18.333 16.6623 17.7672 16.6623 15.4997C16.6623 13.2322 13.6123 12.6455 9.99815 12.6455Z"
-                                        fill="#D3D5DA" />
-                                    <path opacity="0.4"
-                                        d="M9.99789 10.4865C12.4462 10.4865 14.4079 8.524 14.4079 6.0765C14.4079 3.629 12.4462 1.6665 9.99789 1.6665C7.55039 1.6665 5.58789 3.629 5.58789 6.0765C5.58789 8.524 7.55039 10.4865 9.99789 10.4865Z"
-                                        fill="#D3D5DA" />
-                                </svg>
-                                <span>Add Business</span>
-                            </a>
-                        </li>
-                           <li class="mt-16">
-                            <a href="list-advertise" class="nav-link-item no-page">
-                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                    viewBox="0 0 20 20" fill="none">
-                                    <path
-                                        d="M9.99815 12.6455C6.40398 12.6455 3.33398 13.2122 3.33398 15.4788C3.33398 17.7463 6.38482 18.333 9.99815 18.333C13.5923 18.333 16.6623 17.7672 16.6623 15.4997C16.6623 13.2322 13.6123 12.6455 9.99815 12.6455Z"
-                                        fill="#D3D5DA" />
-                                    <path opacity="0.4"
-                                        d="M9.99789 10.4865C12.4462 10.4865 14.4079 8.524 14.4079 6.0765C14.4079 3.629 12.4462 1.6665 9.99789 1.6665C7.55039 1.6665 5.58789 3.629 5.58789 6.0765C5.58789 8.524 7.55039 10.4865 9.99789 10.4865Z"
-                                        fill="#D3D5DA" />
-                                </svg>
-                                <span>View Posts</span>
                             </a>
                         </li>
 
@@ -1331,3 +1310,7 @@
 </body>
 
 </html>
+
+
+
+
