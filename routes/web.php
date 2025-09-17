@@ -8,10 +8,13 @@ use Laravel\Socialite\Facades\Socialite;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CategoryController;
 
-Route::get('/', function () {
+Route::get('onboarding', function () {
     return view('welcome');
 });
 
+Route::get('/', function () {
+    return view('landing');
+});
 
 // Route::get('/signin', function(){
 
@@ -59,6 +62,15 @@ Route::get('/dashboard', function () {
 Route::get('/advertise', function () {
     return view('advertise');
 })->middleware(['auth', 'verified'])->name('advertise');
+
+Route::get('/messages', function () {
+    return view('messages');
+})->middleware(['auth', 'verified'])->name('messages');
+
+
+Route::get('/inbox', function () {
+    return view('read');
+})->middleware(['auth', 'verified'])->name('inbox');
 
 
 

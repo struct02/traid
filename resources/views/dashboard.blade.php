@@ -73,7 +73,7 @@
             <div class="content">
                 <span class="body-4 text-dark-4">Welcome back!</span>
                 <h4 class="name">
-                    Hello, <span style="font-weight: 400">{{Auth::user()->name}}</span>
+                    Hello, <span style="font-weight: 400">{{ explode(' ', Auth::user()->name)[0] }}</span>
                     <img class="icon" src="images/icon/hello.png" alt="">
                 </h4>
             </div>
@@ -143,11 +143,9 @@
 
                   
                     <h5 class="title"> Close the best deals<br> by trading services</h5>
-                    <a href="job-detail.html" class="btn-more">Learn More</a>
+                    <a href="#" class="btn-more">Learn More</a>
                 </div>
-                <div class="img-box">
-                    <img src="images/banner/banner-1.png" alt="">
-                </div>
+              
                 <div class="circle-animation">
                     <div class="circle"></div>
                     <div class="circle"></div>
@@ -244,14 +242,14 @@
                                 </div>
                                 <div class="list-tag">
                                     <span class="tag body-6">Software</span>
-                                    <span class="tag body-6">Digital Marketing</span>
-                                    <span class="tag body-6">Mobile App</span>
+                                    <span class="tag body-6">Digital</span>
+                                    <span class="tag body-6">App</span>
                                 </div>
                                 <div class="bottom">
-                                    <div class="inner">
+                                    {{-- <div class="inner">
                                        rating
-                                    </div>
-                                    <a href="job-detail.html" class="btn-apply">
+                                    </div> --}}
+                                    <a href="#" class="btn-apply">
                                         Apply
                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -265,16 +263,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="card-job bg-secondary-violet">
+                             <div class="swiper-slide">
+                            <div class="card-job bg-primary-pest">
                                 <div class="top">
                                     <div class="inner-left">
                                         <div class="logo-box">
-                                            <img src="images/jobs/microsoft.png" alt="">
+                                            <img src="images/jobs/google.png" alt="">
                                         </div>
                                         <div class="info">
-                                            <p class="body-2">Microsoft</p>
-                                            <h6 class="title"><a href="job-detail.html">Lead Designer</a></h6>
+                                            <p class="body-2">Sciuno</p>
+                                            <h6 class="title"><a href="job-detail.html">Engineering</a></h6>
                                         </div>
                                     </div>
                                     <span class="tag-archive check-icon">
@@ -297,16 +295,15 @@
                                     </span>
                                 </div>
                                 <div class="list-tag">
-                                    <span class="tag body-6">Design</span>
-                                    <span class="tag body-6">Full Time</span>
-                                    <span class="tag body-6">In House</span>
+                                    <span class="tag body-6">Software</span>
+                                    <span class="tag body-6">Digital</span>
+                                    <span class="tag body-6">App</span>
                                 </div>
                                 <div class="bottom">
-                                    <div class="inner">
-                                        <h6>$195,000/</h6>
-                                        <span class="body-6">Year</span>
-                                    </div>
-                                    <a href="job-detail.html" class="btn-apply">
+                                    {{-- <div class="inner">
+                                       rating
+                                    </div> --}}
+                                    <a href="#" class="btn-apply">
                                         Apply
                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -321,16 +318,16 @@
                             </div>
                         </div>
 
-                                  <div class="swiper-slide">
-                            <div class="card-job bg-secondary-violet">
+                                   <div class="swiper-slide">
+                            <div class="card-job bg-primary-pest">
                                 <div class="top">
                                     <div class="inner-left">
                                         <div class="logo-box">
-                                            <img src="images/jobs/microsoft.png" alt="">
+                                            <img src="images/jobs/google.png" alt="">
                                         </div>
                                         <div class="info">
-                                            <p class="body-2">Microsoft</p>
-                                            <h6 class="title"><a href="job-detail.html">Lead Designer</a></h6>
+                                            <p class="body-2">Sciuno</p>
+                                            <h6 class="title"><a href="job-detail.html">Engineering</a></h6>
                                         </div>
                                     </div>
                                     <span class="tag-archive check-icon">
@@ -353,16 +350,15 @@
                                     </span>
                                 </div>
                                 <div class="list-tag">
-                                    <span class="tag body-6">Design</span>
-                                    <span class="tag body-6">Full Time</span>
-                                    <span class="tag body-6">In House</span>
+                                    <span class="tag body-6">Software</span>
+                                    <span class="tag body-6">Digital</span>
+                                    <span class="tag body-6">App</span>
                                 </div>
                                 <div class="bottom">
-                                    <div class="inner">
-                                        <h6>$195,000/</h6>
-                                        <span class="body-6">Year</span>
-                                    </div>
-                                    <a href="job-detail.html" class="btn-apply">
+                                    {{-- <div class="inner">
+                                       rating
+                                    </div> --}}
+                                    <a href="#" class="btn-apply">
                                         Apply
                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -413,19 +409,19 @@
                 </div>
                 <div class="mt-20 list-jobs">
                     <div class="job-item">
-                        <a href="job-detail.html" class="logo"><img src="images/jobs/apple.png" alt=""></a>
+                        <a href="#" class="logo"><img src="images/logo/smp.png" width="100px" alt=""></a>
                         <div class="content">
                             <div class="info">
-                                <h5><a href="job-detail.html">Sr. Product Designer</a></h5>
+                                <h5><a href="#">App Developer</a></h5>
                                 <ul class="list-info">
                                     <li class="item">
                                         <i class="icon icon-company"></i>
-                                        <span class="body-4">Apple</span>
+                                        <span class="body-4">Sciuno</span>
                                     </li>
                                     <li class="dot"></li>
                                     <li class="item">
                                         <i class="icon icon-map"></i>
-                                        <span class="body-4">United States</span>
+                                        <span class="body-4">Tema</span>
                                     </li>
                                 </ul>
                             </div>
@@ -447,20 +443,20 @@
                             </span>
                         </div>
                     </div>
-                    <div class="job-item">
-                        <a href="job-detail.html" class="logo"><img src="images/jobs/amplitude.png" alt=""></a>
+                      <div class="job-item">
+                        <a href="#" class="logo"><img src="images/logo/smp.png" width="100px" alt=""></a>
                         <div class="content">
                             <div class="info">
-                                <h5><a href="job-detail.html">Sr. UI/UX Designer</a></h5>
+                                <h5><a href="#">Digital Marketer</a></h5>
                                 <ul class="list-info">
                                     <li class="item">
                                         <i class="icon icon-company"></i>
-                                        <span class="body-4">Amplitude</span>
+                                        <span class="body-4">Sciuno</span>
                                     </li>
                                     <li class="dot"></li>
                                     <li class="item">
                                         <i class="icon icon-map"></i>
-                                        <span class="body-4">Singapore</span>
+                                        <span class="body-4">Tema</span>
                                     </li>
                                 </ul>
                             </div>
@@ -482,20 +478,20 @@
                             </span>
                         </div>
                     </div>
-                    <div class="job-item">
-                        <a href="job-detail.html" class="logo"><img src="images/jobs/adobe.png" alt=""></a>
+                       <div class="job-item">
+                        <a href="#" class="logo"><img src="images/logo/smp.png" width="100px" alt=""></a>
                         <div class="content">
                             <div class="info">
-                                <h5><a href="job-detail.html">Software Developer</a></h5>
+                                <h5><a href="#">Products Manager</a></h5>
                                 <ul class="list-info">
                                     <li class="item">
                                         <i class="icon icon-company"></i>
-                                        <span class="body-4">Adobe</span>
+                                        <span class="body-4">Sciuno</span>
                                     </li>
                                     <li class="dot"></li>
                                     <li class="item">
                                         <i class="icon icon-map"></i>
-                                        <span class="body-4">New York City</span>
+                                        <span class="body-4">Tema</span>
                                     </li>
                                 </ul>
                             </div>
@@ -517,76 +513,8 @@
                             </span>
                         </div>
                     </div>
-                    <div class="job-item">
-                        <a href="job-detail.html" class="logo"><img src="images/jobs/wings.png" alt=""></a>
-                        <div class="content">
-                            <div class="info">
-                                <h5><a href="job-detail.html">Lead Digital Marketar</a></h5>
-                                <ul class="list-info">
-                                    <li class="item">
-                                        <i class="icon icon-company"></i>
-                                        <span class="body-4">wings</span>
-                                    </li>
-                                    <li class="dot"></li>
-                                    <li class="item">
-                                        <i class="icon icon-map"></i>
-                                        <span class="body-4">Anywhere (Remote)</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <span class="more">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g opacity="0.6">
-                                        <path
-                                            d="M12 3.75C12.6858 3.75 13.25 4.31421 13.25 5C13.25 5.68579 12.6858 6.25 12 6.25C11.3142 6.25 10.75 5.68579 10.75 5C10.75 4.31421 11.3142 3.75 12 3.75Z"
-                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
-                                        <path
-                                            d="M12 17.75C12.6858 17.75 13.25 18.3142 13.25 19C13.25 19.6858 12.6858 20.25 12 20.25C11.3142 20.25 10.75 19.6858 10.75 19C10.75 18.3142 11.3142 17.75 12 17.75Z"
-                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
-                                        <path
-                                            d="M12 10.75C12.6858 10.75 13.25 11.3142 13.25 12C13.25 12.6858 12.6858 13.25 12 13.25C11.3142 13.25 10.75 12.6858 10.75 12C10.75 11.3142 11.3142 10.75 12 10.75Z"
-                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
-                                    </g>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="job-item">
-                        <a href="job-detail.html" class="logo"><img src="images/jobs/airbnb.png" alt=""></a>
-                        <div class="content">
-                            <div class="info">
-                                <h5><a href="job-detail.html">Full Stack Developer</a></h5>
-                                <ul class="list-info">
-                                    <li class="item">
-                                        <i class="icon icon-company"></i>
-                                        <span class="body-4">Airbnb</span>
-                                    </li>
-                                    <li class="dot"></li>
-                                    <li class="item">
-                                        <i class="icon icon-map"></i>
-                                        <span class="body-4">United Kingdom</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <span class="more">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g opacity="0.6">
-                                        <path
-                                            d="M12 3.75C12.6858 3.75 13.25 4.31421 13.25 5C13.25 5.68579 12.6858 6.25 12 6.25C11.3142 6.25 10.75 5.68579 10.75 5C10.75 4.31421 11.3142 3.75 12 3.75Z"
-                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
-                                        <path
-                                            d="M12 17.75C12.6858 17.75 13.25 18.3142 13.25 19C13.25 19.6858 12.6858 20.25 12 20.25C11.3142 20.25 10.75 19.6858 10.75 19C10.75 18.3142 11.3142 17.75 12 17.75Z"
-                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
-                                        <path
-                                            d="M12 10.75C12.6858 10.75 13.25 11.3142 13.25 12C13.25 12.6858 12.6858 13.25 12 13.25C11.3142 13.25 10.75 12.6858 10.75 12C10.75 11.3142 11.3142 10.75 12 10.75Z"
-                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
-                                    </g>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
+                
+                
                 </div>
             </div>
 
@@ -635,7 +563,7 @@
 
                 </a></li>
             <li>
-                <a href="message.html">
+                <a href="messages">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g opacity="0.6">
                             <path
@@ -890,7 +818,8 @@
                         </div>
                         <div class="content-right">
                             <p class="text-1">Good morning</p>
-                            <h6 class="fw-7">Hello, {{Auth::user()->name}}</h6>
+                            {{-- <h6 class="fw-7">Hello, {{ collect(explode(' ', Auth::user()->name))->last() }}</h6> --}}
+                            <h6 class="fw-7">Hello, {{ explode(' ', Auth::user()->name)[0] }}</h6>
                         </div>
                     </div>
                     <ul class="pt-20 pb-20">
@@ -999,7 +928,7 @@
                         </li>
                     </ul>
                     <ul class="pt-20">
-                        <li class="text-sm-start text-uppercase fw-7 text-2">Setting</li>
+                        <li class="text-sm-start text-uppercase fw-7 text-2">Settings</li>
 
                         <li class="mt-16">
                             <div class="nav-mode">
@@ -1091,7 +1020,7 @@
                             <li><a href="empty-notification.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
                                     <span>Empty Notification</span>
                                 </a></li>
-                            <li><a href="message.html" class="nav-link-item pt-16 pb-16 line-bt no-page">
+                            <li><a href="messages" class="nav-link-item pt-16 pb-16 line-bt no-page">
                                     <span>Message</span>
                                 </a></li>
                             <li><a href="message-inbox.html" class="nav-link-item pt-16 pb-16 line-bt no-page">

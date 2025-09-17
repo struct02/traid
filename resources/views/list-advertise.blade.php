@@ -58,56 +58,64 @@
         </div>
         <h3>My Ads</h3>
     </div>
-    <div class="app-content style-3">
-        <div class="tf-container">
-           
-   <table class="table table-striped table-hover">
-<thead>
 
-<tr>
-            <th>ID</th>
-            <th>Business Name</th>
-            <th>Business Type</th>
-            <th>Services</th>
-            <th>Business Details (Short)</th>
-            <th>Business Details (Long)</th>
-            <th>Edit</th>
-</tr>
-</thead>
-<tbody>
+    <div class="mt-24">
+                
+                <div class="tf-container">
+                    <div class="fl-title d-flex justify-content-between align-items-center">
+                    <h4>My Ads</h4>
+                    <a href="#" class="button-1">See All</a>
+                </div>
+                <div class="mt-20 list-jobs">
+                   
+ @foreach ($businessAdvertise as $post)
+                     <div class="job-item">
+                        <a href="#" class="logo"><img src="images/logo/smp.png" width="100px" alt=""></a>
+                        <div class="content">
+                            <div class="info">
+                                <h5><a href="#">{{$post->busname}}</a></h5>
+                                <ul class="list-info">
+                                    <li class="item">
+                                        <i class="icon icon-company"></i>
+                                        <span class="body-4">{{$post->bustype}}</span>
+                                    </li>
+                                    <li class="dot"></li>
+                                    <li class="item">
+                                        <i class="icon icon-map"></i>
+                                        <span class="body-4">Tema</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <span class="more">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                        <path
+                                            d="M12 3.75C12.6858 3.75 13.25 4.31421 13.25 5C13.25 5.68579 12.6858 6.25 12 6.25C11.3142 6.25 10.75 5.68579 10.75 5C10.75 4.31421 11.3142 3.75 12 3.75Z"
+                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
+                                        <path
+                                            d="M12 17.75C12.6858 17.75 13.25 18.3142 13.25 19C13.25 19.6858 12.6858 20.25 12 20.25C11.3142 20.25 10.75 19.6858 10.75 19C10.75 18.3142 11.3142 17.75 12 17.75Z"
+                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
+                                        <path
+                                            d="M12 10.75C12.6858 10.75 13.25 11.3142 13.25 12C13.25 12.6858 12.6858 13.25 12 13.25C11.3142 13.25 10.75 12.6858 10.75 12C10.75 11.3142 11.3142 10.75 12 10.75Z"
+                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
+                                    </g>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+
+                    @endforeach
+                      
+                     
+                
+                
+                </div>
+            </div>
+            </div>
 
 
-</tbody>
-<tbody>
-    @foreach ($businessAdvertise as $post)
-    
-<tr>
-    <td>{{$post->id}}</td>
-    <td>{{$post->busname}}</td>
-    <td>{{$post->bustype}}</td>
-    <td>{{$post->services}}</td>
-    <td>{{$post->shortdesc}}</td>
-    <td>{{$post->longdesc}}</td>
-    {{-- <td><a href="{{ route('ourteam.editparticipant'), $post->id }}">Edit</a></td> --}}
-    <td>
-{{-- <form action="{{route('', $post->id) }}" method="POST">
-    @csrf
-
-@method('delete')
-<button type="submit" onclick="return confirm('Are you sure you want to delete')">Del</button>
-</form> --}}
-
-    </td>
-</tr>
-@endforeach
-</tbody>
-
-    </table>
-        
-
-        </div>
-
-    </div>
+   
 
 
 

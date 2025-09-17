@@ -73,7 +73,7 @@
             <div class="content">
                 <span class="body-4 text-dark-4">Welcome back!</span>
                 <h4 class="name">
-                    Hello, <span style="font-weight: 400">{{Auth::user()->name}}</span>
+                    Hello, <span style="font-weight: 400">{{ explode(' ', Auth::user()->name)[0] }}</span>
                     <img class="icon" src="images/icon/hello.png" alt="">
                 </h4>
             </div>
@@ -413,6 +413,7 @@
     </div>
 
 
+          
             <div class="mt-24">
                 <div class="fl-title d-flex justify-content-between align-items-center">
                     <h4>Most Popular</h4>
@@ -420,19 +421,19 @@
                 </div>
                 <div class="mt-20 list-jobs">
                     <div class="job-item">
-                        <a href="job-detail.html" class="logo"><img src="images/jobs/apple.png" alt=""></a>
+                        <a href="#" class="logo"><img src="images/logo/smp.png" width="100px" alt=""></a>
                         <div class="content">
                             <div class="info">
-                                <h5><a href="job-detail.html">Sr. Product Designer</a></h5>
+                                <h5><a href="#">App Developer</a></h5>
                                 <ul class="list-info">
                                     <li class="item">
                                         <i class="icon icon-company"></i>
-                                        <span class="body-4">Apple</span>
+                                        <span class="body-4">Sciuno</span>
                                     </li>
                                     <li class="dot"></li>
                                     <li class="item">
                                         <i class="icon icon-map"></i>
-                                        <span class="body-4">United States</span>
+                                        <span class="body-4">Tema</span>
                                     </li>
                                 </ul>
                             </div>
@@ -454,20 +455,20 @@
                             </span>
                         </div>
                     </div>
-                    <div class="job-item">
-                        <a href="job-detail.html" class="logo"><img src="images/jobs/amplitude.png" alt=""></a>
+                      <div class="job-item">
+                        <a href="#" class="logo"><img src="images/logo/smp.png" width="100px" alt=""></a>
                         <div class="content">
                             <div class="info">
-                                <h5><a href="job-detail.html">Sr. UI/UX Designer</a></h5>
+                                <h5><a href="#">Digital Marketer</a></h5>
                                 <ul class="list-info">
                                     <li class="item">
                                         <i class="icon icon-company"></i>
-                                        <span class="body-4">Amplitude</span>
+                                        <span class="body-4">Sciuno</span>
                                     </li>
                                     <li class="dot"></li>
                                     <li class="item">
                                         <i class="icon icon-map"></i>
-                                        <span class="body-4">Singapore</span>
+                                        <span class="body-4">Tema</span>
                                     </li>
                                 </ul>
                             </div>
@@ -489,20 +490,20 @@
                             </span>
                         </div>
                     </div>
-                    <div class="job-item">
-                        <a href="job-detail.html" class="logo"><img src="images/jobs/adobe.png" alt=""></a>
+                       <div class="job-item">
+                        <a href="#" class="logo"><img src="images/logo/smp.png" width="100px" alt=""></a>
                         <div class="content">
                             <div class="info">
-                                <h5><a href="job-detail.html">Software Developer</a></h5>
+                                <h5><a href="#">Products Manager</a></h5>
                                 <ul class="list-info">
                                     <li class="item">
                                         <i class="icon icon-company"></i>
-                                        <span class="body-4">Adobe</span>
+                                        <span class="body-4">Sciuno</span>
                                     </li>
                                     <li class="dot"></li>
                                     <li class="item">
                                         <i class="icon icon-map"></i>
-                                        <span class="body-4">New York City</span>
+                                        <span class="body-4">Tema</span>
                                     </li>
                                 </ul>
                             </div>
@@ -524,76 +525,8 @@
                             </span>
                         </div>
                     </div>
-                    <div class="job-item">
-                        <a href="job-detail.html" class="logo"><img src="images/jobs/wings.png" alt=""></a>
-                        <div class="content">
-                            <div class="info">
-                                <h5><a href="job-detail.html">Lead Digital Marketar</a></h5>
-                                <ul class="list-info">
-                                    <li class="item">
-                                        <i class="icon icon-company"></i>
-                                        <span class="body-4">wings</span>
-                                    </li>
-                                    <li class="dot"></li>
-                                    <li class="item">
-                                        <i class="icon icon-map"></i>
-                                        <span class="body-4">Anywhere (Remote)</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <span class="more">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g opacity="0.6">
-                                        <path
-                                            d="M12 3.75C12.6858 3.75 13.25 4.31421 13.25 5C13.25 5.68579 12.6858 6.25 12 6.25C11.3142 6.25 10.75 5.68579 10.75 5C10.75 4.31421 11.3142 3.75 12 3.75Z"
-                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
-                                        <path
-                                            d="M12 17.75C12.6858 17.75 13.25 18.3142 13.25 19C13.25 19.6858 12.6858 20.25 12 20.25C11.3142 20.25 10.75 19.6858 10.75 19C10.75 18.3142 11.3142 17.75 12 17.75Z"
-                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
-                                        <path
-                                            d="M12 10.75C12.6858 10.75 13.25 11.3142 13.25 12C13.25 12.6858 12.6858 13.25 12 13.25C11.3142 13.25 10.75 12.6858 10.75 12C10.75 11.3142 11.3142 10.75 12 10.75Z"
-                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
-                                    </g>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="job-item">
-                        <a href="job-detail.html" class="logo"><img src="images/jobs/airbnb.png" alt=""></a>
-                        <div class="content">
-                            <div class="info">
-                                <h5><a href="job-detail.html">Full Stack Developer</a></h5>
-                                <ul class="list-info">
-                                    <li class="item">
-                                        <i class="icon icon-company"></i>
-                                        <span class="body-4">Airbnb</span>
-                                    </li>
-                                    <li class="dot"></li>
-                                    <li class="item">
-                                        <i class="icon icon-map"></i>
-                                        <span class="body-4">United Kingdom</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <span class="more">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g opacity="0.6">
-                                        <path
-                                            d="M12 3.75C12.6858 3.75 13.25 4.31421 13.25 5C13.25 5.68579 12.6858 6.25 12 6.25C11.3142 6.25 10.75 5.68579 10.75 5C10.75 4.31421 11.3142 3.75 12 3.75Z"
-                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
-                                        <path
-                                            d="M12 17.75C12.6858 17.75 13.25 18.3142 13.25 19C13.25 19.6858 12.6858 20.25 12 20.25C11.3142 20.25 10.75 19.6858 10.75 19C10.75 18.3142 11.3142 17.75 12 17.75Z"
-                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
-                                        <path
-                                            d="M12 10.75C12.6858 10.75 13.25 11.3142 13.25 12C13.25 12.6858 12.6858 13.25 12 13.25C11.3142 13.25 10.75 12.6858 10.75 12C10.75 11.3142 11.3142 10.75 12 10.75Z"
-                                            fill="#121927" stroke="#121927" stroke-width="1.5" />
-                                    </g>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
+                
+                
                 </div>
             </div>
 
@@ -880,7 +813,7 @@
             </div>
         </div>
     </div>
-    <!-- sidebar -->
+       <!-- sidebar -->
     <div class="modal fade modalLeft" id="sidebar">
         <div class="modal-dialog" role="document">
             <div class="modal-content modal-sidebar">
@@ -897,7 +830,7 @@
                         </div>
                         <div class="content-right">
                             <p class="text-1">Good morning</p>
-                            <h6 class="fw-7">Hello, {{Auth::user()->name}}</h6>
+                            <h6 class="fw-7">Hello, {{ explode(' ', Auth::user()->name)[0] }}</h6>
                         </div>
                     </div>
                     <ul class="pt-20 pb-20">
@@ -915,7 +848,7 @@
 
 
                         </li>
-                        <li class="mt-16">
+                        {{-- <li class="mt-16">
                             <a href="javascript:void(0);" class="nav-link-item btn-choose-page">
                                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                     viewBox="0 0 20 20" fill="none">
@@ -931,8 +864,8 @@
                                 </svg>
                                 <span>Pages</span>
                             </a>
-                        </li>
-                        <li class="mt-16">
+                        </li> --}}
+                        {{-- <li class="mt-16">
                             <a href="javascript:void(0);" class="nav-link-item btn-choose-component">
                                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                     viewBox="0 0 20 20" fill="none">
@@ -945,7 +878,7 @@
                                 </svg>
                                 <span>Components</span>
                             </a>
-                        </li>
+                        </li> --}}
 
                         <li class="mt-16">
                             <a href="profile" class="nav-link-item no-page">
@@ -959,6 +892,34 @@
                                         fill="#D3D5DA" />
                                 </svg>
                                 <span>Profile</span>
+                            </a>
+                        </li>
+                          <li class="mt-16">
+                            <a href="advertise" class="nav-link-item no-page">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 20 20" fill="none">
+                                    <path
+                                        d="M9.99815 12.6455C6.40398 12.6455 3.33398 13.2122 3.33398 15.4788C3.33398 17.7463 6.38482 18.333 9.99815 18.333C13.5923 18.333 16.6623 17.7672 16.6623 15.4997C16.6623 13.2322 13.6123 12.6455 9.99815 12.6455Z"
+                                        fill="#D3D5DA" />
+                                    <path opacity="0.4"
+                                        d="M9.99789 10.4865C12.4462 10.4865 14.4079 8.524 14.4079 6.0765C14.4079 3.629 12.4462 1.6665 9.99789 1.6665C7.55039 1.6665 5.58789 3.629 5.58789 6.0765C5.58789 8.524 7.55039 10.4865 9.99789 10.4865Z"
+                                        fill="#D3D5DA" />
+                                </svg>
+                                <span>Add Business</span>
+                            </a>
+                        </li>
+                           <li class="mt-16">
+                            <a href="list-advertise" class="nav-link-item no-page">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 20 20" fill="none">
+                                    <path
+                                        d="M9.99815 12.6455C6.40398 12.6455 3.33398 13.2122 3.33398 15.4788C3.33398 17.7463 6.38482 18.333 9.99815 18.333C13.5923 18.333 16.6623 17.7672 16.6623 15.4997C16.6623 13.2322 13.6123 12.6455 9.99815 12.6455Z"
+                                        fill="#D3D5DA" />
+                                    <path opacity="0.4"
+                                        d="M9.99789 10.4865C12.4462 10.4865 14.4079 8.524 14.4079 6.0765C14.4079 3.629 12.4462 1.6665 9.99789 1.6665C7.55039 1.6665 5.58789 3.629 5.58789 6.0765C5.58789 8.524 7.55039 10.4865 9.99789 10.4865Z"
+                                        fill="#D3D5DA" />
+                                </svg>
+                                <span>View Posts</span>
                             </a>
                         </li>
 
@@ -978,7 +939,7 @@
                         </li>
                     </ul>
                     <ul class="pt-20">
-                        <li class="text-sm-start text-uppercase fw-7 text-2">Setting</li>
+                        <li class="text-sm-start text-uppercase fw-7 text-2">Settings</li>
 
                         <li class="mt-16">
                             <div class="nav-mode">
