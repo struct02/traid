@@ -371,7 +371,7 @@
                         </div>
                     </section><!--====== End Services Section  ======-->
                     <!--====== Start Pricing Section  ======-->
-                    <section class="pricing-ss pt-130 pb-130">
+                    <section class="pricing-ss pb-130">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -396,65 +396,65 @@
 it’s remembered, trusted, and chosen. </h4>
                                                         </div>
                                                         <div class="pricing-plan">
-                                                            <span class="plan">Basic Plan</span>
-                                                            <h2 class="price"><span class="currency">₵</span> 18.00 <span class="duration">per month</span></h2>
+                                                            <span class="plan">Basic</span>
+                                                            <h2 class="price"><span class="currency">₵</span> 5.00 <span class="duration">per month</span></h2>
                                                         </div>
                                                         <div class="pricing-plan bg-active">
-                                                            <span class="plan">Standard Plan</span>
-                                                            <h2 class="price"><span class="currency">₵</span> 49.00 <span class="duration">per month</span></h2>
+                                                            <span class="plan">Standard</span>
+                                                            <h2 class="price"><span class="currency">₵</span> 25.00 <span class="duration">per month</span></h2>
                                                         </div>
                                                         <div class="pricing-plan">
-                                                            <span class="plan">Basic Plan</span>
-                                                            <h2 class="price"><span class="currency">₵</span> 105.00 <span class="duration">per month</span></h2>
+                                                            <span class="plan">Premium</span>
+                                                            <h2 class="price"><span class="currency">₵</span> 50.00 <span class="duration">per month</span></h2>
                                                         </div>
                                                     </div>
                                                     <!--=== Pricing Body  ===-->
                                                     <div class="pricing-body">
                                                         <!--=== Pricing Body Item  ===-->
                                                         <div class="pricing-body-item">
-                                                            <div class="pricing-title">Mistakes To Avoid</div>
+                                                            <div class="pricing-title">10 Ads in a month</div>
                                                             <div class="pricing-list"><i class="fa fa-times"></i></div>
                                                             <div class="pricing-list bg-active"><i class="fa fa-check"></i></div>
                                                             <div class="pricing-list"><i class="fa fa-check"></i></div>
                                                         </div>
                                                         <!--=== Pricing Body Item  ===-->
                                                         <div class="pricing-body-item">
-                                                            <div class="pricing-title">Unlimited Software Projects</div>
+                                                            <div class="pricing-title">1 Premium sale badge</div>
                                                             <div class="pricing-list"><i class="fa fa-times"></i></div>
                                                             <div class="pricing-list bg-active"><i class="fa fa-check"></i></div>
                                                             <div class="pricing-list"><i class="fa fa-check"></i></div>
                                                         </div>
                                                         <!--=== Pricing Body Item  ===-->
                                                         <div class="pricing-body-item">
-                                                            <div class="pricing-title">Lifetime Support & SEO Experts</div>
+                                                            <div class="pricing-title">Lifetime Support</div>
                                                             <div class="pricing-list"><i class="fa fa-times"></i></div>
                                                             <div class="pricing-list bg-active"><i class="fa fa-check"></i></div>
                                                             <div class="pricing-list"><i class="fa fa-check"></i></div>
                                                         </div>
                                                         <!--=== Pricing Body Item  ===-->
                                                         <div class="pricing-body-item">
-                                                            <div class="pricing-title">Advance Dashboard</div>
+                                                            <div class="pricing-title">Advanced Dashboard</div>
                                                             <div class="pricing-list"><i class="fa fa-times"></i></div>
                                                             <div class="pricing-list bg-active"><i class="fa fa-check"></i></div>
                                                             <div class="pricing-list"><i class="fa fa-check"></i></div>
                                                         </div>
                                                         <!--=== Pricing Body Item  ===-->
                                                         <div class="pricing-body-item">
-                                                            <div class="pricing-title">Cloud Hosting & Domain</div>
+                                                            <div class="pricing-title">Customer Support</div>
                                                             <div class="pricing-list">200GB</div>
                                                             <div class="pricing-list bg-active">05TB</div>
                                                             <div class="pricing-list">Unlimited</div>
                                                         </div>
                                                         <!--=== Pricing Body Item  ===-->
                                                         <div class="pricing-body-item">
-                                                            <div class="pricing-title">Knew About Fonts</div>
+                                                            <div class="pricing-title">Customer Engagements</div>
                                                             <div class="pricing-list"><i class="fa fa-times"></i></div>
                                                             <div class="pricing-list bg-active"><i class="fa fa-check"></i></div>
                                                             <div class="pricing-list"><i class="fa fa-check"></i></div>
                                                         </div>
                                                         <!--=== Pricing Body Item  ===-->
                                                         <div class="pricing-body-item">
-                                                            <div class="pricing-title">Real-time editing & Updating</div>
+                                                            <div class="pricing-title">Real-time chatting</div>
                                                             <div class="pricing-list"><i class="fa fa-times"></i></div>
                                                             <div class="pricing-list bg-active"><i class="fa fa-check"></i></div>
                                                             <div class="pricing-list"><i class="fa fa-check"></i></div>
@@ -497,7 +497,7 @@ it’s remembered, trusted, and chosen. </h4>
                     </section><!--====== End Pricing Section  ======-->
                    
                     <!--====== Start Integrations Section =======-->
-                    <section class="intregration-tools-ss pt-130 pb-130">
+                    <section class="intregration-tools-ss pb-130">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -539,12 +539,12 @@ it’s remembered, trusted, and chosen. </h4>
                                         <h5>Dropbox</h5>
                                     </div>
                                 </div>
-                                <div class="col-xl-2 col-lg-4 col-md-3 col-sm-6">
-                                    <div class="tool-item mb-30" data-aos="fade-up" data-aos-duration="1400">
+                                  <div class="col-xl-2 col-lg-4 col-md-3 col-sm-6">
+                                    <div class="tool-item mb-30" data-aos="fade-up" data-aos-duration="1200">
                                         <div class="tool-img">
-                                            <img src="assets/images/tools/tool5.png" alt="Tools Icon">
+                                            <img src="assets/images/tools/tool3.png" alt="Tools Icon">
                                         </div>
-                                        <h5>Framer</h5>
+                                        <h5>GitHub</h5>
                                     </div>
                                 </div>
                                 <div class="col-xl-2 col-lg-4 col-md-3">
@@ -555,46 +555,9 @@ it’s remembered, trusted, and chosen. </h4>
                                         <h5>Mailchimp</h5>
                                     </div>
                                 </div>
-                                <div class="col-xl-2 col-lg-4 col-md-3 col-sm-6">
-                                    <div class="tool-item mb-30" data-aos="fade-up" data-aos-duration="1600">
-                                        <div class="tool-img">
-                                            <img src="assets/images/tools/tool7.png" alt="Tools Icon">
-                                        </div>
-                                        <h5>Airbnb</h5>
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 col-lg-4 col-md-3 col-sm-6">
-                                    <div class="tool-item mb-30" data-aos="fade-up" data-aos-duration="1700">
-                                        <div class="tool-img">
-                                            <img src="assets/images/tools/tool8.png" alt="Tools Icon">
-                                        </div>
-                                        <h5>Webflow</h5>
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 col-lg-4 col-md-3 col-sm-6">
-                                    <div class="tool-item mb-30" data-aos="fade-up" data-aos-duration="1800">
-                                        <div class="tool-img">
-                                            <img src="assets/images/tools/tool9.png" alt="Tools Icon">
-                                        </div>
-                                        <h5>Slack</h5>
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 col-lg-4 col-md-3 col-sm-6">
-                                    <div class="tool-item mb-30" data-aos="fade-up" data-aos-duration="1900">
-                                        <div class="tool-img">
-                                            <img src="assets/images/tools/tool10.png" alt="Tools Icon">
-                                        </div>
-                                        <h5>Gitlab</h5>
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 col-lg-4 col-md-3 col-sm-6">
-                                    <div class="tool-item mb-30" data-aos="fade-up" data-aos-duration="2000">
-                                        <div class="tool-img">
-                                            <img src="assets/images/tools/tool11.png" alt="Tools Icon">
-                                        </div>
-                                        <h5>Spotify</h5>
-                                    </div>
-                                </div>
+                               
+                             
+                          
                             </div>
                         </div>
                     </section><!--====== End Integrations Section =======-->

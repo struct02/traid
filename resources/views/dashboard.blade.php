@@ -807,9 +807,9 @@
             <div class="modal-content modal-sidebar">
                 <div class="sidebar-header">
                     <a href="index.html" class="sidebar-logo">
-                        <img src="images/logo/logo-1.png" alt="img">
+                         <img src="{{ URL::to('/') }}/images/logo/168.png" style="width: 37px;height: 35px;margin-top: 9px;" />
                     </a>
-                    <p>TRAID - Trade Services </p>
+                    <p>Dashboard </p>
                 </div>
                 <div class="sidebar-content">
                     <div class="d-flex gap-10 align-items-center pb-20 line-bt">

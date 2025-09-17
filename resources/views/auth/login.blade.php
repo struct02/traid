@@ -179,7 +179,7 @@
                         <input class="tf-switch-check" id="remember_me" type="checkbox">
                         <label for="checkRemember" class="body-2 text-dark-4">Remember Me</label>
                     </div>
-                    <a href="forgot-pass.html" class="button-1 text-primary">Forgot Password?</a>
+                    <a href="forgot-password" class="button-1 text-primary">Forgot Password?</a>
                 </div>
                 <button class="mt-40 tf-btn primary" type="submit">Sign In</button>
             </form>
